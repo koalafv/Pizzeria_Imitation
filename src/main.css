@@ -1,0 +1,125 @@
+body
+{
+    color: #634F5F;
+}
+.wielkosc
+{
+
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.left
+{
+    padding: 50px;
+    width: 53%;
+    float: left;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: left;
+
+}
+.right
+{
+    float: right;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#tit
+{
+    text-align: center;
+ 
+}
+input[type="radio"]
+{
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    accent-color: #308374;
+
+}
+
+
+input
+{
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    float: right;
+    border-radius: 50%;
+    accent-color: #FFBA6A;
+}
+label
+{
+
+    width: 60%;
+    cursor: pointer;
+}
+.txt
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: #308374;
+}
+.but
+{
+    width: 50%;
+    border-radius: 5px;
+}
+
+
+ label:hover,  .skladnik::after
+{
+background-color: black;
+opacity: 0.5;
+color: #308374;
+}
+span
+{
+    font-size: 25px;
+}
+@media (max-width: 768px)
+{
+    .left
+    {
+        width: 100%;
+        float: left;
+    }
+    label
+    {
+        width: 80%;
+    }
+    input
+    {
+        float: left;
+      height: 30px;
+      width: 30px;
+    }
+    .skladnik
+    {
+        font-size: 15px;
+    }
+    .right
+    {
+        width: 100%;
+    }
+    input[type="radio"]
+    {
+        margin: 5px;
+        height: 30px;
+        width: 30px;
+    }
+    .but
+    {
+        margin-bottom: 15px;
+        height: 30px;
+    }
+    
+}
